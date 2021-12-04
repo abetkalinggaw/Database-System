@@ -107,6 +107,15 @@ if (isset($_POST['submit'])) {
                             <?php endforeach; ?>
                         </select>
                     </div>
+                    <div class="mb-3">
+                        <label for="tipeTransaksi" class="form-label">Tipe Transaksi</label>
+                        <select class="form-control w-50" id="tipeTransaksi" name="tipeTransaksi" required>
+                            <option selected> - PILIH - </option>
+                            <option value="DEBIT"> DEBIT </option>
+                            <option value="KREDIT"> KREDIT </option>
+                            <option value="TRANSFER"> TRANSFER </option>
+                        </select>
+                    </div>
                     <hr>
                     <a href="rekening.php" class="btn btn-secondary">Kembali</a>
                     <button type="submit" class="btn btn-warning" name="submit">Update Data</button>
