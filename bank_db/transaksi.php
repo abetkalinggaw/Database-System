@@ -81,7 +81,7 @@ $transaksi = query("SELECT * FROM transaksi");
                             <th>No Rekening</th>
                             <th>Kode Nasabah</th>
                             <th>Nominal</th>
-                            <th>Kode Transaksi</th>
+                            <th>Kode Pegawai</th>
                             <th>Tipe Transaksi</th>
                             <th>Cetak</th>
                         </tr>
